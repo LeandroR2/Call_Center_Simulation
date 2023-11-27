@@ -4,7 +4,7 @@ import random
 import pyodbc
 
 con = pyodbc.connect('Driver={SQL Server};'
-                     'Server=LapPer550\SQLEXPRESS;'
+                     'Server=LocalServer\SQLEXPRESS;'
                      'Database=Call_Center;'
                      'Truested_connection=yes;')
 
